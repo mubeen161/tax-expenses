@@ -2,6 +2,8 @@ import streamlit as st
 
 
 import openai
+
+openai.api_key = "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"
 session_state = st.session_state
 def main1():
     st.title("Tax Computation")
